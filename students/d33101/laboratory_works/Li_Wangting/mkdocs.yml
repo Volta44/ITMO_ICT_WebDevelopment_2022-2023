@@ -1,1 +1,14 @@
+site_name: Li Wangting Docs
 
+theme:
+    name: material
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  
+nav:
+ - Лабораторная работа №1: lr1.md
